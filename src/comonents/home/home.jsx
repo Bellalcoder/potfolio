@@ -3,7 +3,7 @@ import styled from "styled-components";
 import Social from "./social.jsx";
 import Data from "./data.jsx";
 import Profile from "./profile.jsx";
-
+import logo from '../../img/pexels-life-of-pix-42408.jpg'
 
 const home = () => {
   return (
@@ -18,7 +18,7 @@ const home = () => {
                     <Profile/>
                 </div>
 
-               <img src="/public/pexels-life-of-pix-42408.jpg" alt="" style={{width:"200px", }} />
+               <img src={logo} style={{width: "200px"}}/>
                 
             </div>
         </div>
