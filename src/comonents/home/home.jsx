@@ -17,6 +17,8 @@ const home = () => {
                     <Data/>
                     <Profile/>
                 </div>
+
+                <img src="/public/assets/scroll.svg" alt="" />
                 
             </div>
         </div>
