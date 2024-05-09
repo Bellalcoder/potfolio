@@ -18,7 +18,7 @@ const home = () => {
                     <Profile/>
                 </div>
 
-                <img src="/public/assets/scroll.svg" alt="" />
+               <img src="/public/pexels-life-of-pix-42408.jpg" alt="" style={{width:"200px", }} />
                 
             </div>
         </div>
