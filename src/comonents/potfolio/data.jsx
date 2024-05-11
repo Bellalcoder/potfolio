@@ -9,7 +9,7 @@ const menu = [
 
     {
         id: 1,
-        img: "/public/image/dasboard2.PNG",
+        img: "/src/images/dasboard2.PNG",
         title: "hemo",
         category: "app",
     },
