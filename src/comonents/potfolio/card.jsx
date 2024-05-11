@@ -14,7 +14,7 @@ const card = ({menu}) => {
                 {
                     menu.map(item => (
                         <div className="car-menu" key={item.id}>
-                            <img src={item.img} alt="" />
+                            <img src={item.img} alt="item.id" />
                             <p>{item.title}</p>
                             <h3>{item.description}</h3>
                         </div>
