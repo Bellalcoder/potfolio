@@ -39,13 +39,6 @@ export default data;
 
 const Datacontainer = styled.div `
 
-
-.info {
-  width: 60%;
-  margin-left: 120px;
- 
-}
-
 .info h1 {
   font-size: 30px;
   font-family: "poppins", sans-serif;
@@ -80,8 +73,6 @@ const Datacontainer = styled.div `
   line-height: 20px;
 }
 
-
-
 .info span {
   font-family: "poppins", sans-serif;
   font-size: 16px;
@@ -91,8 +82,8 @@ const Datacontainer = styled.div `
   padding: 10px 20px;
   border: none;
   outline: none;
-  background-color: #fff;
-  color: #000;
+  background-color: #000;
+  color: #fff;
   font-size: 14px;
   font-family: "poppins", sans-serif;
   font-weight: 600;
@@ -105,35 +96,21 @@ const Datacontainer = styled.div `
 
 /*============= Responsive css Media query max-width(768px) ============== */
 
-@media (max-width:768px) {
-
-.info {
-   margin-left: 80px;
-}
-
-.info .about{
-  font-size: 14px;
-}
-
-.info h1 {
-  font-size: 20px;
-}
-
-.info .web{
-  font-size: 15px;
-}
-    
-}
-
-@media (max-width: 570px) {
+@media (max-width: 342px) {
   
   .info {
-    margin-left: 0px ;
-    margin-top: 30px;
-    width: 100%;
+
+    h1 {
+      font-size: 27px;
+    }
+
   }
 
 }
+
+
+
+
 
 
 `

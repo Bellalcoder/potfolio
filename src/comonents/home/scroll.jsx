@@ -68,9 +68,7 @@ export default scroll;
 const Scrollcontainer = styled.div `
 
 .scroll .scroll-menu {
-    margin-left: 110px;
-    margin-top: 40px;
-    
+   margin-top: 50px;
 }
 
 .scroll .scroll-menu .wheel{
@@ -88,6 +86,7 @@ const Scrollcontainer = styled.div `
    font-size: 15px;
    font-family: "poppins", sans-serif;
    color: #000;
+   font-weight: bold;
 }
 
 .scroll-menu .faarrow {

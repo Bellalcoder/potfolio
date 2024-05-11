@@ -145,7 +145,11 @@ export default service;
 
 const Servicecontainer = styled.div `
 
- 
+  background-color: whitesmoke;
+
+  .service-container {
+    padding-top: 50px;
+  }
   
   .in-detials {
     display: none;
@@ -163,7 +167,6 @@ const Servicecontainer = styled.div `
      flex-direction: column;
      justify-content: center;
      align-items: center;
-     margin-top: 50px;
   }
 
   .service-bottom h2 {
@@ -182,8 +185,8 @@ const Servicecontainer = styled.div `
    justify-content: center;
    align-items: center;
    gap: 50px;
-   padding-bottom:50px;
-   padding-top: 60px;
+   padding-top: 50px;
+   padding-bottom: 50px;
    
   }
 
@@ -312,9 +315,6 @@ const Servicecontainer = styled.div `
       width: 300px;
       margin-bottom: 60px;
     }
-
-
-
   }
 
 

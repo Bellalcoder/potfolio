@@ -1,9 +1,10 @@
 
 
 import styled from "styled-components";
-
 import Frontend from "./frontend.jsx"
 import Tools from "./tools.jsx";
+
+import skilsphoto from "../img/skills.jpg";
 
 const skills = () => {
   return (
@@ -12,7 +13,7 @@ const skills = () => {
      <Skillscontainer id="skills">
 
         <div>
-            <div className="skills-contaienr">
+            <div className="skills-container" style={{backgroundImage: `url(${skilsphoto})`, backgroundRepeat: 'no-repeat', width: '100%', height:'auto',backgroundPosition: "center", backgroundSize: 'cover',}}>
 
                 <div className="demo-skills">
                     <h2>Skills</h2>
@@ -41,9 +42,9 @@ export default skills;
 
 const Skillscontainer = styled.div `
 
-background-color: green;
-padding: 50px;
-margin-top: 50px;
+.skills-container {
+   padding: 50px;
+}
 
 .demo-skills {
     display: flex;

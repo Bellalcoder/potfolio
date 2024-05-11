@@ -1,6 +1,7 @@
 
 
 import styled from "styled-components";
+import potfolio from "../img/potfolio.jpg";
 
 const card = ({menu}) => {
   return (
@@ -8,7 +9,7 @@ const card = ({menu}) => {
        
      <Cardcontainer>
 
-        <div className="card-container">
+        <div className="card-container" style={{backgroundImage: `url(${potfolio})`, backgroundRepeat: 'no-repeat', width: '100%', height:'auto',backgroundPosition: "center", backgroundSize: 'cover',}}>
             <div className="card">
                 {
                     menu.map(item => (
@@ -32,28 +33,25 @@ export default card;
 
 const Cardcontainer = styled.div `
 
-
-
 .card{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     gap: 30px;
-    
+    padding-top: 30px;
+    margin-top: 30px;
 }
 
 .car-menu{
-    border: 1px solid #55555542;
-    padding: 10px;
     border-radius: 10px;
 }
 
 .car-menu img{
-  
-    width: 250px;
-    height: 250px;
-    padding: 10px;
+    width: 290px;
+    height: 290px;
+    border-top-right-radius: 5px ;
+    border-top-left-radius: 5px ;
 }
 
 `

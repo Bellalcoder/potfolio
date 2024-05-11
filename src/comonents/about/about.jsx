@@ -6,8 +6,7 @@ import { FaFileDownload } from "react-icons/fa";
 import { BiAward } from "react-icons/bi";
 import { BiBriefcaseAlt } from "react-icons/bi";
 import { FaHeadphonesAlt } from "react-icons/fa";
-
-
+import mypicture from "../img/myphoto.jpg";
 
 const about = () => {
   return (
@@ -23,7 +22,7 @@ const about = () => {
            <div className="about-container" >
                
               <div className="about">
-                 <div className="images">
+                 <div className="images" style={{ backgroundImage: `url(${mypicture})`, backgroundRepeat: 'no-repeat', width: '300px', height:'300px',backgroundPosition: "center", backgroundSize: 'cover',}}>
                     
                  </div>
 
@@ -65,7 +64,9 @@ export default about;
 
 const Aboutcontainer = styled.div `
 
-padding: 50px;
+padding-top: 50px;
+padding-bottom: 50px;
+background-color: whitesmoke;
 
 .about-me {
    display: flex;

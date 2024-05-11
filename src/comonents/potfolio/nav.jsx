@@ -93,9 +93,7 @@ const Navcontainer = styled.div `
   display: flex;
   gap: 20px;
   justify-content: center;
-  margin-bottom: 50px;
   margin-top: 50px;
-
 }
 
 
