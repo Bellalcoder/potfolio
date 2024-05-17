@@ -6,7 +6,8 @@ import { FaFileDownload } from "react-icons/fa";
 import { BiAward } from "react-icons/bi";
 import { BiBriefcaseAlt } from "react-icons/bi";
 import { FaHeadphonesAlt } from "react-icons/fa";
-import mypicture from "../img/myphoto.jpg";
+import mypicture from "../../images/aboutphoto.jpg";
+import resume from "../../images/MdBellalHosenResume.pdf"
 
 const about = () => {
   return (
@@ -31,7 +32,7 @@ const about = () => {
                         <div className="details">
                               <BiAward className="bebo-icon" />
                               <h3>Exprience</h3>
-                              <small> 2 years working</small>
+                              <small> 4 years working</small>
                         </div>
 
                         <div className="details">
@@ -48,7 +49,7 @@ const about = () => {
                      </div>
                      <div className="button-text">
                         <p> I am frontend developer, i create web pages and many clients are happy with the projects carried out. and my working exprience  2 years </p>
-                        <button>Download cv <FaFileDownload/> </button>
+                        <a href={resume} download={resume}> <button>Download cv <FaFileDownload/> </button></a>
                      </div>
                  </div>
               </div>
@@ -155,6 +156,10 @@ background-color: whitesmoke;
 
 .button-text{
    width: 350px;
+
+   a {
+      text-decoration: none;
+   }
 }
 
 .button-text p {
@@ -165,7 +170,7 @@ background-color: whitesmoke;
 }
 
 .button-text button {
-   padding: 13px 20px;
+   padding: 10px 20px;
    border: none;
    color: #000;
    font-size: 20px;
@@ -175,8 +180,13 @@ background-color: whitesmoke;
    align-items: center;
    gap: 20px;
    box-shadow: 5px 5px 5px #55555514, -5px -5px 5px #55555511;
-   border: 1px solid #5555552d;
-   background-color: #fff;
+   background-color: #EDD1FF;
+   cursor: pointer;
+   transition:  .3s;
+};
+
+.button-text button:hover {
+   background-color: #edd1ffcc;
 }
 
 @media (max-width: 768px) {

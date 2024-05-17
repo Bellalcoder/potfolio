@@ -3,9 +3,7 @@
 import styled from "styled-components";
 import Frontend from "./frontend.jsx"
 import Tools from "./tools.jsx";
-
-import skilsphoto from "../img/skills.jpg";
-
+import skilsphoto from "../../images/skillsbackground.jpg"
 const skills = () => {
   return (
     <>

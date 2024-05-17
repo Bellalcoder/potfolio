@@ -6,18 +6,16 @@ import Home from "./comonents/home/home.jsx";
 import About from "./comonents/about/about.jsx";
 import Skills from "./comonents/skills/skills.jsx";
 import Services from "./comonents/services/service.jsx";
-import Data from "./comonents/potfolio/data.jsx";
 import Testimonial from "./comonents/testimonial/testimonial.jsx";
 import Contact from "./comonents/contact/contact.jsx";
 import Foooter from "./comonents/footer/footer.jsx";
+import Potfolio from "./comonents/potfolio/projectitem.jsx";
 
 import "./App.css";
 
 
 
 const App = () => {
-
-
 
   return (
     <>
@@ -36,7 +34,7 @@ const App = () => {
       {/*========= Services section =============*/}  
       <Services/>
       {/*========= Data section =================*/} 
-      <Data/>
+      <Potfolio/>
       {/*========= Testimonial section ==========*/}  
       <Testimonial/>
       {/*========= Contact section ==============*/}  

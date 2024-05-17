@@ -14,9 +14,9 @@ const social = () => {
      <Socialcontainer>
         <div>
            <div className="social">
-              <a href="#"><FaGithub/></a>
+              <a href="https://github.com/Bellalcoder" target="blank"><FaGithub/></a>
               <a href="https://www.facebook.com/profile.php?id=100069168101670" target="blank"><FaFacebook/></a>
-              <a href="#"><FaLinkedin/></a>
+              <a href="https://www.linkedin.com/in/md-bellal-coder-b53b08307/" target="blank"><FaLinkedin/></a>
            </div>
         </div>
      </Socialcontainer>

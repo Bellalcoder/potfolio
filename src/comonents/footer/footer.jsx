@@ -38,9 +38,10 @@ const footer = () => {
                     </div>
                         
                     <div className="footer-icon">
-                        <FaGithub className="foot-icon" />
-                        <FaFacebook className="foot-icon" />
-                        <IoLogoLinkedin className="foot-icon" />
+                      <a href="https://github.com/Bellalcoder" target="blank"><FaGithub className="foot-icon"/></a>
+                      <a href="https://www.facebook.com/profile.php?id=100069168101670" target="blank"><FaFacebook className="foot-icon"/></a>
+                      <a href="https://www.linkedin.com/in/md-bellal-coder-b53b08307/" target="blank"><IoLogoLinkedin className="foot-icon"/></a>
+
                     </div>
                     <p></p>
                 </div>
@@ -119,7 +120,12 @@ background-color: #000000f4;
 .footer-icon .foot-icon {
   font-size: 20px;
   transition:  .3s ;
+  color: #fff;
+  cursor: pointer;
+}
 
+.foot-icon a {
+  color: #fff;
 }
 
 .footer-icon .foot-icon:hover{

@@ -2,10 +2,9 @@
 import styled from "styled-components";
 import Social from "./social.jsx";
 import Data from "./data.jsx";
-import logo from '../img/pexels-life-of-pix-42408.jpg';
+import logo from '../../images/homebackground.jpg';
 
 const home = () => {
-
 
   return (
     <>
