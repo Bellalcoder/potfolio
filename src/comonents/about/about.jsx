@@ -48,7 +48,7 @@ const about = () => {
                         </div>
                      </div>
                      <div className="button-text">
-                        <p> I am frontend developer, i create web pages and many clients are happy with the projects carried out. and my working exprience  2 years </p>
+                        <p> I am frontend developer, i create web pages and many clients are happy with the projects carried out. and my working exprience  4 years </p>
                         <a href={resume} download={resume}> <button>Download cv <FaFileDownload/> </button></a>
                      </div>
                  </div>
