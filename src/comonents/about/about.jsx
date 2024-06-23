@@ -7,13 +7,13 @@ import { BiAward } from "react-icons/bi";
 import { BiBriefcaseAlt } from "react-icons/bi";
 import { FaHeadphonesAlt } from "react-icons/fa";
 import mypicture from "../../images/aboutphoto.jpg";
-import resume from "../../images/MdBellalHosenResume.pdf"
+import resume from "../../images/_assets_MdBellalHosenResume-BHxJZ3NT.pdf.pdf"
 
-const about = () => {
+const about = () => { 
   return (
     <>
 
-     <Aboutcontainer id="about">
+      <Aboutcontainer id="about">
         <div>
             <div className="about-me">
                <h1>About me</h1>
@@ -55,7 +55,7 @@ const about = () => {
               </div>
            </div>
         </div>
-     </Aboutcontainer>
+      </Aboutcontainer>
     
     </>
   )
